@@ -1,0 +1,2 @@
+/* Chart modal animation only; Recharts animations are disabled globally. */
+.chart-zoom-backdrop{animation:chart-backdrop-in 180ms ease-out both}.chart-zoom-modal{animation:chart-modal-in 180ms ease-out both;transform-origin:center}@keyframes chart-backdrop-in{from{opacity:0}to{opacity:1}}@keyframes chart-modal-in{from{opacity:0;transform:scale(.98)}to{opacity:1;transform:scale(1)}}@media(prefers-reduced-motion:reduce){.chart-zoom-backdrop,.chart-zoom-modal{animation:none!important}}
